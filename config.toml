@@ -1,0 +1,47 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Chris Guevara"
+  subtitle    = "Programming, software development, and tech"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Chris Guevara's Programming and Software Engineering Blog"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "chrismguevara"
+  githubName = "cg50x"
+
+  # logo = "hugo-logo.png"
+  orgName = "CG"
+
+  author = "CG"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Los Angeles, CA"
+  authorWebsite = "https://cg50x.github.io"
+  authorDescription = "I'm a software developer who writes about programming, software development, and tech"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "About Me"
+  url = "/about"
+  weight = 100

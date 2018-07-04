@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:cg50x/cg50x.github.io.git
+	branch = master
